@@ -4,8 +4,8 @@
 function binarySearch(array, item) {
 	var low = 0,
 	    high = array.length - 1,
-		mid,
-		midItem;
+	    mid,
+	    midItem;
 	
 	while(low <= high) {
 		mid = Math.floor((low + high) / 2);
