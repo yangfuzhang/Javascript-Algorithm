@@ -1,5 +1,5 @@
 # Javascript-Algorithm
-Javascript 数据机构与算法
+Javascript 数据结构与算法
 
 数组
 
