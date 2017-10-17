@@ -1,5 +1,5 @@
 /*
-二分查找算法，需要先对数组进行排序
+**二分查找算法，需要先对数组进行排序
 */
 function binarySearch(array, item) {
 	var low = 0,
