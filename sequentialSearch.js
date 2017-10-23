@@ -1,4 +1,4 @@
-//javascript顺序搜索算法
+//javascript顺序搜索
 
 function sequentialSearch(array, item) {
 	for(var i = 0; i < array.length; i++) {

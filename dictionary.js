@@ -1,4 +1,4 @@
-//javascript字典
+//javascript字典实现
 
 function Dictionary() {
 	

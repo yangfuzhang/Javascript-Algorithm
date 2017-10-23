@@ -1,6 +1,5 @@
 //javascript选择排序
 
-
 /*
 **@param array
 */
@@ -21,7 +20,7 @@ function SelectionSort(array) {
 		}
 	}	
 	
-	console.log(array)
+	console.log(array);
 }
 
 /*辅助函数，交换数组元素

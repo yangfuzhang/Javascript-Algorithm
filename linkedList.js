@@ -1,4 +1,4 @@
-//单向链表
+//javascript单向链表
 
 function LinkedList() {
 	

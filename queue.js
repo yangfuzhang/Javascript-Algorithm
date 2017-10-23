@@ -1,4 +1,4 @@
-//javascript队列实现
+//javascript队列
 
 function Queue() {
 	

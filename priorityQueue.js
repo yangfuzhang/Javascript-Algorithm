@@ -1,6 +1,5 @@
-/*
-**javascript最小优先队列
-*/
+//javascript最小优先队列
+
 
 function PriorityQueue() {
 	

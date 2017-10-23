@@ -105,7 +105,7 @@ function Dictionary() {
 		items = {};
 	};
 	
-	//获取字典大小
+	//字典大小
 	this.size = function() {
 		return Object.keys(items).length;
 	};
