@@ -229,3 +229,5 @@ function test() {
 
 	graph.bfs(myVertices[0], printNode);
 }
+
+test()
