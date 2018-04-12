@@ -14,7 +14,7 @@ function Queue() {
 	
 	//出列
 	this.dequeue = function() {
-		items.shift();
+		return items.shift();
 	};
 	
 	//获取队首元素
