@@ -1,4 +1,4 @@
-/*
+/**
 *Depth-First Search
 *图的深度优先遍历
 */
@@ -38,7 +38,8 @@ function Graph() {
 		color[u] = 'black';
 	};
 	
-	/*添加顶点
+	/**
+	*添加顶点
 	*@param v
 	*@return null
 	*/
@@ -47,7 +48,8 @@ function Graph() {
 		adjList.set(v, []);
 	};
 	
-	/*添加边
+	/**
+	*添加边
 	*@param v,w
 	*@return null
 	*/
