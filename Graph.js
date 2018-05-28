@@ -1,14 +1,13 @@
 //javascript无向图
 
 function Graph() {
+    var vertices = [];
+    var adjList = new Dictionary();//邻接表
 	
-	var vertices = [];
-	var adjList = new Dictionary();//邻接表
-	
-	/*添加顶点
-	*@param v
-	*@return null
-	*/
+    /*添加顶点
+    *@param v
+    *@return null
+    */
 	this.addVertex = function(v) {
 		vertices.push(v);
 		adjList.set(v, []);
