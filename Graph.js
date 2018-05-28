@@ -9,18 +9,18 @@ function Graph() {
     *@return null
     */
 	this.addVertex = function(v) {
-		vertices.push(v);
-		adjList.set(v, []);
+        vertices.push(v);
+        adjList.set(v, []);
 	};
 	
-	/*添加边
-	*@param v,w
-	*@return null
-	*/
-	this.addEdge = function(v, w) {
-		adjList.get(v).push(w);
-		adjList.get(w).push(v);
-	};
+    /*添加边
+    *@param v,w
+    *@return null
+    */
+    this.addEdge = function(v, w) {
+        adjList.get(v).push(w);
+        adjList.get(w).push(v);
+    };
 	
 	//控制台输出图
 	this.toString = function() {
