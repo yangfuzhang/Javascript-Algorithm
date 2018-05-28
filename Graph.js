@@ -22,22 +22,22 @@ function Graph() {
         adjList.get(w).push(v);
     };
 	
-	//控制台输出图
-	this.toString = function() {
-		var s = '';
-		for(var i = 0; i < vertices.length; i++) {
-			s += vertices[i] + '->';
-			var neighbors = adjList.get(vertices[i]);
-			
-			for(j = 0; j < neighbors.length; j++) {
-				s += neighbors[j] + ' ';
-			}
-			
-			s += '\n';
-		}
-		
-		console.log(s);
-	};
+    //控制台输出图
+    this.toString = function() {
+        var s = '';
+        for(var i = 0; i < vertices.length; i++) {
+            s += vertices[i] + '->';
+            var neighbors = adjList.get(vertices[i]);
+            
+            for(j = 0; j < neighbors.length; j++) {
+                s += neighbors[j] + ' ';
+            }
+            
+            s += '\n';
+        }
+        
+        console.log(s);
+    };
 }
 
 function Dictionary() {
