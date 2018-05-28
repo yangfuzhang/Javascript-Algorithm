@@ -8,10 +8,10 @@ function Graph() {
     *@param v
     *@return null
     */
-	this.addVertex = function(v) {
+    this.addVertex = function(v) {
         vertices.push(v);
         adjList.set(v, []);
-	};
+    };
 	
     /*添加边
     *@param v,w
