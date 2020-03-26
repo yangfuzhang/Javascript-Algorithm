@@ -6,4 +6,4 @@ set -e
 git add -A
 git commit -m 'project-updated'
 
-git push origin master
+git push -f origin master

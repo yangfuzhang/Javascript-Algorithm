@@ -1,6 +1,5 @@
-/*
-*Breadth-First Search
-*图的广度优先遍历
+/**Breadth-First Search
+ * 图的广度优先遍历
 */
 
 //javascript无向图
