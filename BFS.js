@@ -19,18 +19,18 @@ function Graph() {
         return color;
     };
 
-    /*添加顶点
-    *@param v
-    *@return null
+    /**添加顶点
+     * @param v
+     * @return null
     */
     this.addVertex = function(v) {
         vertices.push(v);
         adjList.set(v, []);
     };
 
-    /*添加边
-    *@param v,w
-    *@return null
+    /**添加边
+     * @param v,w
+     * @return null
     */
     this.addEdge = function(v, w) {
         adjList.get(v).push(w);
@@ -89,9 +89,9 @@ function Dictionary() {
 	
     var items = {};
 
-    /*判断给定键是否存在
-    *@param key
-    *@return boolean
+    /**判断给定键是否存在
+     * @param key
+     * @return boolean
     */
     this.has = function(key) {
         return key in items;
@@ -105,9 +105,9 @@ function Dictionary() {
         items[key] = value;
     };
 
-    /*删除键值
-    *@param key
-    *@return boolean
+    /**删除键值
+     * @param key
+     * @return boolean
     */
     this.remove = function(key) {
         if(this.has(key)) {
@@ -118,10 +118,10 @@ function Dictionary() {
         return false;
     };
 
-    /*获取给定键的值
-    *@param key
-    *@return value
-    */
+    /**获取给定键的值
+     * @param key
+     * @return value
+     */
     this.get = function(key) {
         return this.has(key) ? items[key] : undefined;
     };
@@ -162,8 +162,8 @@ function Queue() {
     //用数组保存队列元素
     var items = [];
 
-    /*入列
-    **@param element
+    /**入列
+     * @param element
     */
     this.enqueue = function(element) {
         items.push(element);
