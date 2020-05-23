@@ -1,7 +1,7 @@
 # Javascript-Algorithm
 Javascript 数据结构与算法
 
-> 基础数据结构
+> ### 基础数据结构
 
 [队列](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Queue.js)
 
