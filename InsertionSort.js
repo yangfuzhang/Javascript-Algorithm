@@ -3,7 +3,7 @@
 /*
 **@param array
 */
-function insertSort(array) {
+function insertionSort(array) {
     var length = array.length,
         j, temp;
 
@@ -22,7 +22,7 @@ function insertSort(array) {
 
 var testArr = [2,5,1,4,6,9,8,7,3];
 
-insertSort(testArr);
+insertionSort(testArr);
 
 console.log(testArr);
 
