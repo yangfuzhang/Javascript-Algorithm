@@ -5,7 +5,7 @@ Javascript 数据结构与算法
 
 队列
 
-栈
+栈 [https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Stack.js]
 
 链表
 
