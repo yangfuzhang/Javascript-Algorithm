@@ -1,28 +1,42 @@
 # Javascript-Algorithm
 Javascript 数据结构与算法
 
-数组
+> 基础数据结构
 
-队列
+[队列](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Queue.js)
 
-栈 [https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Stack.js]
+[栈](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Stack.js)
 
-链表
+[链表](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/LinkedList.js)
 
 集合
 
-字典
+[字典](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Dictionary.js)
 
 散列表
 
 树
 
-图
+[图](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/Graph.js)
 
-排序算法
 
-搜索算法
+> ### 排序算法
 
-递归
+[冒泡排序啊](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/BubbleSort.js)
 
-动态规划
+[插入排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/InsertionSort.js)
+
+[选择排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/SelectionSort.js)
+
+[归并排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/MergeSort.js)
+
+
+> ### 搜索算法
+
+[顺序搜索](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/SequentialSearch.js)
+
+[二分搜索](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/BinarySearch.js)
+
+> 递归
+
+> 动态规划
