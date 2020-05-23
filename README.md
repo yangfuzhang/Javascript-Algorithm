@@ -22,7 +22,7 @@
 
 > ### 排序算法
 
-[冒泡排序啊](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/BubbleSort.js)
+[冒泡排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/BubbleSort.js)
 
 [插入排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/InsertionSort.js)
 
