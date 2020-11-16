@@ -1,6 +1,6 @@
 /**Stack
  * javascript栈
-*/
+**/
 
 function Stack() {
 	// 数组保存栈元素

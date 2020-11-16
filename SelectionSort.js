@@ -9,7 +9,7 @@ function SelectionSort(array) {
 
     for(var i = 0; i < length - 1; i++) {
         indexMin = i;
-        for(var j = i+1; j < length;j++) {
+        for(var j = i; j < length;j++) {
             if(array[j] < array[indexMin]) {
                 indexMin = j;
             }
