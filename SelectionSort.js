@@ -1,8 +1,8 @@
 //javascript选择排序
 
-/*
-**@param array
-*/
+/**
+  * @param array
+**/
 function SelectionSort(array) {
     var length = array.length,
         indexMin;
