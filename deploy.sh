@@ -3,6 +3,6 @@
 
 git add .
 
-git commit -m 'project updated'
+git commit -m 'update: add comment'
 
 git push origin master
