@@ -3,6 +3,6 @@
 
 git add .
 
-git commit -m 'update: add test case'
+git commit -m 'update: initial upload'
 
 git push origin master
