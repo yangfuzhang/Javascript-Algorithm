@@ -30,11 +30,16 @@ var fibonacci = function() {
 
 // 迭代
 function fibonacci(n) {
-	var prev = 1
+	if(n === 0 || n === 1) {
+		return n
+	}
+
+	var prev = 0
 	var next = 1
 	var sum = 0
 
-	for(var i = 3; i <= n; i++) {
+    // 位置0和1的值已经确定，所以从2开始
+	for(var i = 2; i <= n; i++) {
 		sum = prev + next
 		prev = next 
 		next = sum
