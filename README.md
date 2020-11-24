@@ -30,6 +30,8 @@
 
 [归并排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/MergeSort.js)
 
+[归并排序](https://github.com/yangfuzhang/Javascript-Algorithm/blob/master/QuickSort.js)
+
 &nbsp;
 
 > ### 搜索算法
