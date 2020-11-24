@@ -3,6 +3,6 @@
 
 git add .
 
-git commit -m 'fix: bug fixed'
+git commit -m 'add: initial commit'
 
 git push origin master
