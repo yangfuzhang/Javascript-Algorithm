@@ -9,6 +9,7 @@ function binarySearch(array, item) {
 
     while(low <= high) {
         mid = Math.floor((low + high) / 2);
+        mid = low + Math.floor((high - low) / 2)
         midItem = array[mid];
         
         if(item > midItem) {
