@@ -10,11 +10,18 @@ class MaxHeap {
 
 	delMax() {
 		let max = this.heap[0]
-		this.swap(0, this.heap.length - 1)
-		this.heap.pop()
-		this.sink(0)
 
-		return max
+		if(this.heap.length > 0) {
+			this.swap(0, this.heap.length - 1)
+		    this.heap.pop()
+		    this.sink(0)
+
+		    return max
+		} else {
+			console.log('Heap is empty')
+
+			return false
+		}
 	}
 
 	swim(k) {
