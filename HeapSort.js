@@ -1,3 +1,4 @@
+// 大根堆
 class MaxHeap {
 	constructor() {
 		this.heap = []
@@ -74,15 +75,20 @@ function HeapSort(arr) {
     let len = arr.length
     let result = []
 
+    // 构造大根堆
     for(let item of arr) {
     	heap.insert(item)
     }
 
+    // 依次将堆顶元素（最大元素）push进result
     for(let i = 0; i < len; i++) {
     	result.push(heap.delMax())
     }
 
+    // 逆转数组，从小到大排序
     return result.reverse()
 }
 
+HeapSort([2])
+HeapSort([2,1])
 HeapSort([2,4,3,5,1,8,3,9,15])
