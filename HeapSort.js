@@ -36,6 +36,7 @@ class MaxHeap {
 
         while(2 * k <= this.size()) {
         	j = 2 * k
+        	j = j === 0 ? 1 : j
         	if(this.less(j, j + 1)) { j++ }
         	if(!this.less(k, j)) { break }
         	this.swap(k, j)
@@ -66,15 +67,22 @@ class MaxHeap {
 	}
 }
 
-let heap = new MaxHeap()
 
-heap.insert(4)
-heap.insert(2)
-heap.insert(8)
-heap.insert(5)
-heap.insert(7)
-heap.insert(12)
+// 堆排序
+function HeapSort(arr) {
+    let heap = new MaxHeap()
+    let len = arr.length
+    let result = []
 
-heap.toString()
-console.log(heap.delMax())
-heap.toString()
+    for(let item of arr) {
+    	heap.insert(item)
+    }
+
+    for(let i = 0; i < len; i++) {
+    	result.push(heap.delMax())
+    }
+
+    return result.reverse()
+}
+
+HeapSort([2,4,3,5,1,8,3,9,15])
