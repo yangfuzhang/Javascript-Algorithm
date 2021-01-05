@@ -15,7 +15,7 @@ function SelectionSort(array) {
             }
         }
         
-        if(indexMin != i) {
+        if(indexMin !== i) {
             swap(array, i, indexMin);
         }
     }	
